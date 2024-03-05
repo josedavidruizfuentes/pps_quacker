@@ -10,18 +10,9 @@ Actualmente sin mantenimiento debido al éxito de la competencia. Si quieres hac
 ## Instrucciones de uso
 Aplicación desarrollada en Python (v3.11) con Flask y Mongo como dependencias principales.
 
-Para desplegar el Dockerfile, construye la imagen:
+Para desplegar la aplicación, ejecuta:
 
-    docker build -t quacker .
-
-Para crear la red docker:
-
-    docker network create quacker-net
-
-Luego ejecuta el contenedor, deberás establecer variables de entorno para la sesión.
-
-    docker run -d --name quacker -p 5000:5000 --network quacker-net quacker
-    docker run -d --name mi-mongo -p 27017:27017 --network quacker-net mongo
+docker compose up
 
 Desplegará un servidor web en [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
