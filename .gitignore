@@ -1,1 +1,5 @@
 pps_venv_01/
+__pycache__/
+dao/__pycache__/
+model/__pycache__/
+service/__pycache__/

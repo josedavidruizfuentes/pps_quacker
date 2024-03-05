@@ -11,7 +11,6 @@ Actualmente sin mantenimiento debido al éxito de la competencia. Si quieres hac
 Aplicación desarrollada en Python (v3.11) con Flask y Mongo como dependencias principales. Levanta primero un servidor de Mongo en local.
 
     docker run -p 27017:27017 -d mongo
-Luego ejecuta la aplicación con
 
 Para crear un entorno virtual y realizar la instalación de las dependencias, ejecuta:
 
