@@ -10,6 +10,16 @@ Actualmente sin mantenimiento debido al éxito de la competencia. Si quieres hac
 ## Instrucciones de uso
 Aplicación desarrollada en Python (v3.11) con Flask como dependencia principal.
 
+Para crear un entorno virtual y realizar la instalación de las dependencias, ejecuta:
+
+    python -m venv pps_venv_01
+
+    source pps_venv_01/bin/activate
+
+    pip install -r requirements.txt
+
+Para ejecutar la aplicación, ejecuta:
+
     python app.py
 
 Desplegará un servidor web en [http://127.0.0.1:5000](http://127.0.0.1:5000)
